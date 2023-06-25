@@ -1,0 +1,27 @@
+<!-- index.html -->
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>radprogramming API</h1>
+        <h3>explore resources</h3>
+        <ul class="links" id="links">
+        <script>
+            // javascript to avoid repeating so much html
+            //
+            const endpoints = ['computer/basics', 'javascript/basics/1', 'algebra/basics/1'];
+            const list = document.getElementById('links');
+
+            endpoints.forEach(endpoint => {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+
+                link.href = `http://localhost:3100/${endpoint}`;
+                link.textContent = `${endpoint}`;
+
+                listItem.appendChild(link);
+                list.appendChild(listItem);
+            });
+        </script>
+    </body>
+</html>
