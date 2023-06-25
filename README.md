@@ -1,3 +1,7 @@
+```
+if we can do it, then we should. - Robert P. Moses
+```
+
 **Welcome to the Radical Programming API!**
 
 The Radical Programming API is a Node.js-based educational tool designed to raise computer, programming, and math literacy. It is an open-source project hosted on GitHub, allowing users to download and run the API locally on their machines.
@@ -31,7 +35,7 @@ The Radical Programming API provides a variety of endpoints for learning about d
 - `/` : The root endpoint welcomes you to the Radical Programming API.
 - `/computer/basics` : This endpoint provides information about the basics of computers.
 
-To use an endpoint, simply make a GET request to `http://localhost:3000/<endpoint>`. For example, to access the computer basics content, you would navigate to `http://localhost:3000/computer/basics` in your web browser.
+To use an endpoint, simply make a GET request to `http://localhost:3100/<endpoint>`. For example, to access the computer basics content, you would navigate to `http://localhost:3100/computer/basics` in your web browser.
 
 **Contribute**
 
