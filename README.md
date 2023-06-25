@@ -12,7 +12,7 @@ To get started with the Radical Programming API, follow these steps:
 
 1.  Clone this repository to your local machine using the following command in your terminal:
 
-    `git clone`
+    `git clone git@github.com:vernonmu/radprogrammingapi.git`
 
 2.  Navigate into the project directory:
 
@@ -35,7 +35,7 @@ The Radical Programming API provides a variety of endpoints for learning about d
 - `/` : The root endpoint welcomes you to the Radical Programming API.
 - `/computer/basics` : This endpoint provides information about the basics of computers.
 
-To use an endpoint, simply make a GET request to `http://localhost:3100/<endpoint>`. For example, to access the computer basics content, you would navigate to `http://localhost:3100/computer/basics` in your web browser.
+To use an endpoint, simply make a GET request to `http://localhost:3100/{endpoint}`. For example, to access the computer basics content, you would navigate to `http://localhost:3100/computer/basics` in your web browser.
 
 **Contribute**
 
@@ -43,4 +43,4 @@ The Radical Programming API is an open-source project, and we welcome contributi
 
 **License**
 
-The Radical Programming API is licensed under the MIT License. For more information, please see the [LICENSE](https://chat.openai.com/LICENSE) file in the repository.
+The Radical Programming API is licensed under the MIT License. For more information, please see the [LICENSE]() file in the repository.
